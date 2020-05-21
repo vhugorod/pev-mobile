@@ -9,7 +9,7 @@ const Routes = createAppContainer(
     Main: {
       screen: Main,
       navigationOptions: {
-        title: 'Pontos de entrega de materiais',
+        title: 'Pontos de entrega',
       },
     },
     Profile: {

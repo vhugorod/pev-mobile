@@ -128,7 +128,7 @@ function Main({ navigation }) {
       <View style={styles.searchForm}>
         <TextInput 
           style={styles.searchInput}
-          placeholder="Filtro. Ex: Metal, Vidro, Papel..."
+          placeholder="Filtro. Ex: Metal, Vidro, Móveis..."
           placeholderTextColor="#999"
           autoCapitalize="words"
           autoCorrect={false}
@@ -137,7 +137,7 @@ function Main({ navigation }) {
         />
 
         <TouchableOpacity onPress={loadCompanies} style={styles.loadButton}>
-          <MaterialIcons name="my-location" size={20} color="#FFF" />
+          <MaterialIcons name="search" size={25} color="#FFF" />
         </TouchableOpacity>
       </View>
     </>
