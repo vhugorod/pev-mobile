@@ -11,7 +11,7 @@ PEV - Ponto de entrega voluntária
 </p>
 
 <div>
-  <img src="/github/app1.png" alt="PEV home">
+  <img src="./github/app1.png" width="100%" alt="PEV home">
 </div>
 
 <hr />
