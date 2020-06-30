@@ -10,9 +10,11 @@ PEV - Ponto de entrega voluntária
   </a>
 </p>
 
-<div>
-  <img src="./github/app1.png" width="100%" alt="PEV home">
-</div>
+<h4 align="center">
+    <img alt="Home" title="#home" width="300px" src=".github/app1.png">
+    <img alt="Detail" title="#Detail" width="300px" src=".github/app3.png">
+    <img alt="Map" title="#map" width="300px" src=".github/app2.png">
+</h4>
 
 <hr />
 
