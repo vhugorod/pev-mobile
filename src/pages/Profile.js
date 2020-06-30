@@ -24,26 +24,35 @@ function Profile({ navigation }) {
           <View style={styles.boxInfoTop}>
             <Text style={styles.title}>Materiais de descarte</Text>
             <Text style={styles.companyInfo}>{materials.join(', ')}</Text>
-          </View>
-          <View style={styles.boxInfo}>
+
             <Text style={styles.title}>Endereço</Text>
             <Text style={styles.companyInfo}>{address}</Text>
-          </View>
-          <View style={styles.boxInfo}>
+
             <Text style={styles.title}>Dia e horário de entrega</Text>
             <Text style={styles.companyInfo}>{expedient}</Text>
-          </View>
-          <View style={styles.boxInfo}>
+          
             <Text style={styles.title}>Telefone</Text>
             <Text style={styles.companyInfo}>{phone}</Text>
-          </View>
-          <View style={styles.boxInfo}>
+          
             <Text style={styles.title}>Higienização para descarte</Text>
             <Text style={styles.companyInfo}>{recommendations}</Text>
           </View>
-          <View>
+
+          <View style={styles.boxButton}>
             <TouchableOpacity style={styles.action} onPress={() => Linking.openURL(`google.navigation:q=${coordinates[1]},${coordinates[0]}`)}>
-              <Text style={styles.actionText}>COMO CHEGAR</Text>
+              <Text style={styles.button}>
+                <MaterialIcons name="call" size={25} color="#FFF" />
+                <Text style={styles.actionText}>Entrar em contato</Text>
+              </Text>
+              <MaterialIcons name="arrow-forward" size={25} color="#FFF" />
+            </TouchableOpacity>
+            
+            <TouchableOpacity style={styles.action} onPress={() => Linking.openURL(`google.navigation:q=${coordinates[1]},${coordinates[0]}`)}>
+              <Text style={styles.button}>
+                <MaterialIcons name="directions-car" size={25} color="#FFF" />
+                <Text style={styles.actionText}>Como chegar</Text>
+              </Text>
+              <MaterialIcons name="arrow-forward" size={25} color="#FFF" />
             </TouchableOpacity>
           </View>
           </ScrollView>
@@ -99,36 +108,44 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    fontSize: 19,
+    fontSize: 18,
     marginHorizontal: 15,
     paddingTop: 10,
     fontWeight: 'bold',
-    textAlign: 'center',
   },
 
   companyInfo: {
-    fontSize: 18,
+    fontSize: 20,
     marginTop: 5,
-    margin: 10,
-    textAlign: 'center',
+    margin: 15,
   },
 
   action: {
     backgroundColor: '#288B45',
-    borderRadius: 8,
-    height: 50,
-    width: '50%',
-    justifyContent: 'center',
-    alignItems: 'center',
-    alignSelf: 'center',
+    padding: 15,
     marginTop: 10,
-    marginBottom: 25,
+    borderRadius: 10,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
 
   actionText: {
-    color: '#FFF',
-    fontSize: 15,
+    color: '#fff',
+    fontSize: 18,
     fontWeight: 'bold',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+
+  button: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+
+  boxButton: {
+    paddingHorizontal: 15,
+    paddingBottom: 25,
   },
 
   footer: {

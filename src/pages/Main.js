@@ -128,7 +128,7 @@ function Main({ navigation }) {
       <View style={styles.searchForm}>
         <TextInput 
           style={styles.searchInput}
-          placeholder="Filtro. Ex: Metal, Vidro, Móveis..."
+          placeholder="Filtrar por: Metal, Vidro, Móveis..."
           placeholderTextColor="#999"
           autoCapitalize="words"
           autoCorrect={false}
