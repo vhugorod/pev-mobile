@@ -12,7 +12,7 @@ PEV - Ponto de entrega voluntária
 
 <h4 align="center">
     <img src="https://github.com/Vitorhr10/pev-mobile/blob/master/github/map.jpeg" width="300px" alt="Home">
-    <img src="https://github.com/Vitorhr10/pev-mobile/blob/master/github/datails.jpeg" width="300px" alt="Detail">
+    <img src="https://github.com/Vitorhr10/pev-mobile/blob/master/github/details.jpeg" width="300px" alt="Detail">
 </h4>
 
 <hr />
