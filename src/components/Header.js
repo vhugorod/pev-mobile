@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from 'react-native';
 const Header = () => (
   <View style={styles.header}>
     <Text style={styles.text}>
-      Pontos de Entrega
+      Pontos de Entrega Voluntária
     </Text>
   </View>
 )

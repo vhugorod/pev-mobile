@@ -41,7 +41,6 @@ function Profile({ navigation }) {
           <View style={styles.boxButton}>
             <TouchableOpacity style={styles.action} onPress={() => Linking.openURL(`google.navigation:q=${coordinates[1]},${coordinates[0]}`)}>
               <Text style={styles.button}>
-                <MaterialIcons name="call" size={25} color="#FFF" />
                 <Text style={styles.actionText}>Entrar em contato</Text>
               </Text>
               <MaterialIcons name="arrow-forward" size={25} color="#FFF" />
@@ -49,7 +48,6 @@ function Profile({ navigation }) {
             
             <TouchableOpacity style={styles.action} onPress={() => Linking.openURL(`google.navigation:q=${coordinates[1]},${coordinates[0]}`)}>
               <Text style={styles.button}>
-                <MaterialIcons name="directions-car" size={25} color="#FFF" />
                 <Text style={styles.actionText}>Como chegar</Text>
               </Text>
               <MaterialIcons name="arrow-forward" size={25} color="#FFF" />
@@ -96,6 +94,7 @@ const styles = StyleSheet.create({
   boxInfoTop: {
     margin: 15,
     marginTop: 0,
+    paddingTop: 10,
     backgroundColor: '#fff',
     borderRadius: 20,
   },
@@ -110,12 +109,11 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     marginHorizontal: 15,
-    paddingTop: 10,
     fontWeight: 'bold',
   },
 
   companyInfo: {
-    fontSize: 20,
+    fontSize: 16,
     marginTop: 5,
     margin: 15,
   },
