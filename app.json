@@ -26,7 +26,12 @@
     },
     "android": {
       "package": "com.vitorhr10.pev",
-      "versionCode": 1
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAludDavPzTut9L6LzaxTWIp6Uiboxrbyw"
+        }
+      }
     }
   }
 }
