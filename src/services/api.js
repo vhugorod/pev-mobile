@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://pev-backend.herokuapp.com/',
+  baseURL: 'https://pev-backend.herokuapp.com',
 });
 
 export default api;
