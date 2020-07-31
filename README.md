@@ -11,7 +11,7 @@ PEV - Ponto de entrega voluntária
 </p>
 
 <h4 align="center">
-    <img alt="Ponto de entrega voluntário" title="#Ponto de entrega voluntári" width="750px" src=".github/pev.gif">
+    <img alt="Ponto de entrega voluntário" title="#Ponto de entrega voluntári" width="350px" src=".github/pev.gif">
 		<br /> Versão 2.0
 </h4>
 
